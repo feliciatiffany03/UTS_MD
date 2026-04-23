@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-model_status = joblib.load('artifacts/model_status.pkl')
-model_gaji = joblib.load('artifacts/model_gaji.pkl')
+model_status = joblib.load('model_status.pkl')
+model_gaji = joblib.load('model_gaji.pkl')
 
 def main():
     st.title('Student Career Prediction Dashboard')
